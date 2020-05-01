@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:elevation="24dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EE000000"
+        android:padding="16sp">
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/staticTypePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="monospace"
+            android:textColor="#FFFFFF"
+            android:text="Type:"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/typepicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/staticTypePicker"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            tools:text="T" />
+
+        <TextView
+            android:id="@+id/staticMotionPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="232dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="monospace"
+            android:text="Motions:"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/motionpicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/staticMotionPicker"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            tools:text="m" />
+
+        <TextView
+            android:id="@+id/staticDurationPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="232dp"
+            android:layout_marginTop="62dp"
+            android:fontFamily="monospace"
+            android:text="Avg.Dur:"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/durationpicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="62dp"
+            android:layout_toEndOf="@+id/staticDurationPicker"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            tools:text="d" />
+
+        <TextView
+            android:id="@+id/staticPainPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="62dp"
+            android:layout_toEndOf="@+id/typeofday"
+            android:fontFamily="monospace"
+            android:text="Pain:"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/painpicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="62dp"
+            android:layout_toEndOf="@+id/staticPainPicker"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            tools:text="p" />
+
+        <TextView
+            android:id="@+id/typeofday"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="60dp"
+            android:text="Tod"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="32dp"
+            android:text="JAN08"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

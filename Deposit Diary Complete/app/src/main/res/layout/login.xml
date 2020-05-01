@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.6"
+        android:background="#000000"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon"
+            style="@style/ThemeOverlay.FirebaseIcon"
+            android:layout_width="286dp"
+            android:layout_height="325dp"
+            android:contentDescription="@string/desc_firebase_lockup"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/title_bottom_margin"
+            android:text="@string/emailpassword_title_text1"
+            android:textColor="#FFFFFF"
+            android:theme="@style/ThemeOverlay.MyTitleText" />
+
+        <TextView
+            android:id="@+id/titleText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/title_bottom_margin"
+            android:textAlignment="center"
+            android:text="@string/ibd_title_text2"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:background="#000000"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/emailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="90dp"
+            android:paddingRight="90dp">
+
+            <Button
+                android:id="@+id/emailSignInButton"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/fui_idp_button_background_email"
+                android:drawableStart="@android:drawable/sym_action_email"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dip"
+                android:paddingRight="35dip"
+                android:singleLine="true"
+                android:text="@string/sign_in_email"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/phoneButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailButton"
+            android:orientation="horizontal"
+            android:paddingLeft="90dp"
+            android:paddingRight="90dp">
+
+            <Button
+                android:id="@+id/phoneSignInButton"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/fui_idp_button_background_phone"
+                android:drawableStart="@drawable/fui_ic_phone_white_24dp"
+                android:gravity="center_vertical"
+                android:text="@string/sign_in_phone"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:paddingLeft="30dip"
+                android:paddingRight="26dip"
+                android:singleLine="true"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/googleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phoneButton"
+            android:orientation="horizontal"
+            android:paddingLeft="90dp"
+            android:paddingRight="90dp">
+
+            <Button
+                android:id="@+id/googleSignInButton"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:drawableStart="@drawable/fui_ic_googleg_color_24dp"
+                android:gravity="center_vertical"
+                android:text="@string/sign_in_google"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:paddingLeft="30dip"
+                android:paddingRight="26dip"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
