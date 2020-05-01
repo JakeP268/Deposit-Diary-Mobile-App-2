@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "689063588980",
+    "firebase_url": "https://earnest-coder-260814.firebaseio.com",
+    "project_id": "earnest-coder-260814",
+    "storage_bucket": "earnest-coder-260814.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689063588980:android:d877b96a8e48b1d755cd21",
+        "android_client_info": {
+          "package_name": "ie.wit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689063588980-tblelimnrqesso5870pp5d6i1dn6sp84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.wit",
+            "certificate_hash": "651f3f8022b599d6b4cf407ce012016060ad87e8"
+          }
+        },
+        {
+          "client_id": "689063588980-jvf2mbhh3pt78nddbc8cj2pn8i3865tk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOGviAJLJxa4YOSDWQm33cDOJQ3bsoCtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689063588980-6k4uohc1jtn4vnhma1o0mdh8ndoeog12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
