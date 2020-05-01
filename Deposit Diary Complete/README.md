@@ -1,6 +1,6 @@
 # Deposit Diary completed Version
 
-Minor tweaks added to drawables.
+Complete application featuring some minor tweaks added to drawables.
 
 Repo for the Deposit Diary created and developed with 
 the use of Android Studio, Kotlin and Firebase. 
