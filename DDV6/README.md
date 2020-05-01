@@ -1,6 +1,6 @@
 # Deposit Diary Version 6
 
-Firebase Auth UI along with static markers for public toilet locations
+Finished Firebase Auth UI along with static markers for public toilet locations
 and overhaul on tweaking layout placements, colours in certain 
 layouts etc.
 
