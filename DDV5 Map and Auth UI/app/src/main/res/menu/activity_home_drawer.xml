@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Diary">
+        <menu>
+            <item
+                android:id="@+id/nav_deposit"
+                android:icon="@drawable/ic_menu_deposit_24dp"
+                android:title="@string/menu_deposit" />
+            <item
+                android:id="@+id/nav_entries"
+                android:icon="@drawable/ic_menu_entries_24dp"
+                android:title="@string/menu_entries" />
+        </menu>
+    </item>
+
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_menu_map_24dp"
+                android:title="@string/menu_map" />
+            <item
+                android:id="@+id/nav_types"
+                android:icon="@drawable/ic_menu_types_24dp"
+                android:title="@string/menu_types" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about_24dp"
+                android:title="@string/menu_about" />
+        </menu>
+    </item>
+
+    <item android:title="Access Control">
+        <menu>
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@android:drawable/ic_menu_revert"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+</menu>
