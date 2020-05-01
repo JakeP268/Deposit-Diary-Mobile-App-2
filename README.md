@@ -1,5 +1,6 @@
 # Deposit-Diary-Mobile-App-2
-#Functionality
+Functionality
+#
 The main purpose of the Deposit Diary Application is, to allow users who suffer from IBD/IBS to monitor their condition through allowing the user to enter information about how their days are by tracking the date, their motions, pain, type and durations and if the day was good or bad. The information will then be displayed on a card within the recycler view of the entries fragment that display all the information in a neat and clean layout. 
 The application also features Firebase with such features implemented like different methods of authentication for users to sign into the application to have their own account, along with storage and Realtime database to store the user’s information that they input into their account. Other parts of the application feature implementation of the Google Maps API to display the current location of the user and markers of public toilets (Within the city of Waterford) along with two static fragments explain the Bristol Stool Chart, about the app and then a sign out option within the navigation drawer.
 Login Activity – The login activity functions as the method of signing into the application through various methods such as Gmail, Email and Mobile depending on which you prefer. The purpose of this functionality is to allow the user to create an account so that each user can store their own individual data and keep it protected. This is done with use of implementing firebase authentication.
