@@ -1,7 +1,7 @@
 # Deposit Diary Version 3
 
 In the third version I have implemented crud functionality,
-along wit realtime db allowing updates and deletions of 
+along with realtime database from Firebase allowing updates and deletions of 
 deposits which the user can do through the 
 entries fragment.
 
