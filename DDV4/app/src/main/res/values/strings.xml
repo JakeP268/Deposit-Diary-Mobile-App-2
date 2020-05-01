@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Deposit Diary</string>
+    <string name="action_deposit">Deposit</string>
+    <string name="action_entries">Entries</string>
+    <string name="action_types">Types</string>
+    <string name="action_about">About</string>
+    <string name="depositTitle">Diary</string>
+    <string name="depositSubtitle">How Was Your Day?</string>
+    <string name="depositButton">Deposit</string>
+    <string name="day">Day</string>
+    <string name="good">Good Day</string>
+    <string name="bad">Bad Day</string>
+    <string name="types_title">Types</string>
+    <string name="types_name">Bristol Stool Chart</string>
+
+    //Static Card Titles
+    <string name="statictype">Type :</string>
+    <string name="staticmotion">Motions :</string>
+    <string name="staticduration">Avg.Dur :</string>
+    <string name="staticpain">Pain :</string>
+    <string name="staticdate">Date :</string>
+    <string name="staticday">Overall Day :</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Deposit Diary</string>
+    <string name="nav_header_subtitle">user@mail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_deposit">Deposit</string>
+    <string name="menu_entries">Entries</string>
+    <string name="menu_types">Types</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_about">About</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="toilets_title">Public toilet Locations</string>
+
+    <string name="about_title">About App</string>
+
+    <string name="about_message">Type 1 : Seperate hard lumps - Severe Constipation\n\n\n
+        Type 2 : Lumpy and sausage like - Mild Constipation\n\n\n
+        Type 3 : Sausage shape with cracks - Normal\n\n\n
+        Type 4 : Smooth like soft sausage/snake - Normal\n\n\n
+        Type 5 : Soft blobs with clear-cut edges - Lacking Fibre\n\n\n
+        Type 6 : Mushy consistency with ragged edges - Mild Diarrhea\n\n\n
+        Type 7 : Liquid consistency with no solid pieces - Severe Diarrhea</string>
+
+    <string name="about_app1">The purpose of the Deposit Diary, is to allow users who suffer with IBS and IBD to document and track their daily motions
+                                and in case of flare ups.
+                                \n\The users can record their type of stool, how many motions they have had, the level of pain and average duration.
+                                \n\Within the edit section of the app users can write notes about their days and keep track of important notes,
+                                which they can show to their General Practitioner or specialist so their records can be updated.
+                                \n\Another feature implemented into this application is a map, which allows the user to look at public
+                                toilets within their vicinity when out.</string>
+
+    <string name="about_app2">Created by Jake Phelan\n\4th Year student studying Creative Computing at Waterford Institute of Technology.
+                                \n\For any requires about the app you can contact me by email\n\JakePhelan268@gmail.com</string>
+
+    <string name="depsoitdiary_edit">Diary Updates</string>
+    <string name="messageLoading">Please wait while we Connect to the Server...</string>
+    <string name="action_edit">Edit Deposit</string>
+    <string name="action_update">Update</string>
+    <string name="message_edit">Please Update your Details Below</string>
+
+    <!-- START Firebase Resources-->
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Please Login Below</string>
+
+    <string name="menu_report_all">All Donations</string>
+    <string name="select_profile_image">Select Profile Image</string>
+    <!--END Firebase Resources-->
+</resources>
