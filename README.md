@@ -44,9 +44,15 @@ The About fragment features a logo of the application along with information of 
 References
 #
 https://firebase.google.com/
+#
 https://tutors-design.netlify.app/labs/mobile-app-dev-2-2020.netlify.app/
+#
 https://www.youtube.com/watch?v=SqnzChkVyyM
+#
 https://stackoverflow.com/questions/22962075/change-the-text-color-of-numberpicker
+#
 https://stackoverflow.com/questions/24233556/changing-numberpicker-divider-color
+#
 https://stackoverflow.com/questions/17120199/change-circle-color-of-radio-button
+#
 https://developers.google.com/maps/documentation/android-sdk/map-with-marker
