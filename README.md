@@ -40,3 +40,13 @@ The maps fragment is taking and using the Google Maps API and displaying it with
 The Types fragment feature a simple title along the top of the fragment and beneath it then information detailing each of the seven types of stool within the Bristol stool chart clearly in big text This fragment is static.
 #
 The About fragment features a logo of the application along with information of the application and a profile pic of the creator with info to go with it. This fragment is static to show information purposes.
+#
+References
+#
+https://firebase.google.com/
+https://tutors-design.netlify.app/labs/mobile-app-dev-2-2020.netlify.app/
+https://www.youtube.com/watch?v=SqnzChkVyyM
+https://stackoverflow.com/questions/22962075/change-the-text-color-of-numberpicker
+https://stackoverflow.com/questions/24233556/changing-numberpicker-divider-color
+https://stackoverflow.com/questions/17120199/change-circle-color-of-radio-button
+https://developers.google.com/maps/documentation/android-sdk/map-with-marker
